@@ -15,6 +15,29 @@ urlcolor: cyan
 
 \clearpage
 
+# Feedback and Responses
+
+Feedback: Ensure our data storage + communication is HIPPA approved 
+Response: Making sure the data collection we perform with patients follows all HIPPA guidelines will be one our top priorities
+
+Feedback: Keep in mind the load we are going to be subjecting onto phones/laptops 
+Response: While newer phones do have NPUs, and some laptops do as well, it is understandable that some devices may try to run AI locally without an NPU. While we will see how optimized and accessible we can make the ML system, it may be something we have to scale back or limit to devices that contain the proper hardware	 
+
+Feedback: Look at other datasets (handwriting, facial recognition, video recognition, etc.) 
+Response: While handwriting is an interesting idea to consider, the scope of this project is going to be analyzing what the patient is writing rather than how they are writing it. As far as facial recognition and video are concerned, they most certainly would provide invaluable data to the ML system and doctors who use it, but this could cause big privacy concerns, and patients would be less inclined to use the app if it took videos of them in times of weakness. 
+
+Feedback: Look at the language used in context 
+Response: Everyone has their own unique way of describing how they feel. The goal of our ML system is to identify the variation in language used between different patients. Context is important and our ML system ideally will be able to determine that accurately. 
+
+Feedback: Could models be further trained based on region/dialects to create different baselines for different areas 
+Response: This is another interesting idea that seems like it may have some promise. However, that it is outside the scope of our current project 
+
+Feedback: Could we use tools like apple mental health insights instead of gad-7 and phq-9 (more numerical data and better user interactions) 
+Response: While Apple mental health insights may possibly be more effective or popular than GAD-7 and PHQ-9, we believe that sticking to the widely accepted and used methods in healthcare is important as it will make the ML system easier to understand for people already utilizing tools in the healthcare space. On top of that, some doctors may outright deny using a system with a newer measuring metric rather than a well-established one.	 
+
+Feedback: Keep in mind the scope, build a great project where we just prove the concept, it can always be further developed if we pursue it 
+Response: Most certainly! While lots of great ideas have been suggested to us and we continue to discover more each day, we have set a specific goal that we are not going to drastically change. 
+
 # Project Repository
 https://github.com/jonesnt/ML-Systems-Research
 
