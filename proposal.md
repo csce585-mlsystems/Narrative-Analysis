@@ -2,7 +2,7 @@
 documentclass: article
 classoption: 
 title: "CSCE 585: Machine Learning Systems: 
-Project Proposal: A-TITLE-FOR-YOUR-PROJECT"
+Project Proposal: Narrative Analysis"
 institute: UofSC
 date: \today
 colorlinks: true
