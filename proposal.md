@@ -39,7 +39,7 @@ urlcolor: cyan
 **Response**: Most certainly! While lots of great ideas have been suggested to us and we continue to discover more each day, we have set a specific goal that we are not going to drastically change. 
 
 # Project Repository
-https://github.com/jonesnt/ML-Systems-Research
+[https://github.com/csce585-mlsystems/Narrative-Analysis/tree/main](https://github.com/csce585-mlsystems/Narrative-Analysis/tree/main)
 
 # Introduction
 One of the largest issues in the psychiatric industry is the time it takes to diagnose a patient. Due to the nature of therapy and psychiatric work, provider’s need significant amounts of time and experience with any one patient to understand their emotions and provide an accurate diagnosis. By correlating patient’s language through daily journals with quantitative surveys, we can provide therapists and psychiatrists with significantly more data on their patients than would’ve been possible otherwise.
