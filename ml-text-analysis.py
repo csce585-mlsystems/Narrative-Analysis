@@ -3,7 +3,7 @@ from transformers import BertTokenizer, BertForSequenceClassification
 from scipy.special import softmax
 
 # Model architecture must be the same as during training
-model = BertForSequenceClassification.from_pretrained("bert-base-uncased", num_labels=2)
+model = BertForSequenceClassification.from_pretrained("bert-base-uncased", num_labels=5)
 
 # Load the state dictionary from the saved file
 model.load_state_dict(torch.load('585_bert_model.pth'))
@@ -16,7 +16,7 @@ tokenizer = BertTokenizer.from_pretrained('./tokenizer')
 
 def analyze_sentiment(text):
     # Tokenize the input text and encode it
-    inputs = tokenizer(text, return_tensors="pt", padding=True, truncation=True, max_length=512)
+    inputs = tokenizer(text, return_tensors="pt", padding=True, truncation=True, max_length=1024)
 
     # Run the text through the model to get sentiment prediction logits
     with torch.no_grad():
