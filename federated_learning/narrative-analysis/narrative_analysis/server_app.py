@@ -14,7 +14,7 @@ def server_fn(context: Context):
     fraction_fit = context.run_config["fraction-fit"]
 
     # Initialize global model
-    model_name = context.run_config["model-name"]
+    model_name = context.run_config["model-name-server"]
     num_labels = context.run_config["num-labels"]
     net = AutoModelForSequenceClassification.from_pretrained(
         model_name, num_labels=num_labels

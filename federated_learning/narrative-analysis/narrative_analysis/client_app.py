@@ -34,7 +34,7 @@ def client_fn(context: Context):
     # Get this client's dataset partition
     partition_id = context.node_config["partition-id"]
     num_partitions = context.node_config["num-partitions"]
-    model_name = context.run_config["model-name"]
+    model_name = context.run_config["model-name-client"]
     trainloader, valloader = load_data(partition_id, num_partitions, model_name)
 
     # Load model
