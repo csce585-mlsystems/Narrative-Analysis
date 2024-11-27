@@ -23,6 +23,7 @@ fds = None  # Cache FederatedDataset
 
 
 def load_data(partition_id: int, num_partitions: int, model_name: str):
+    """Load IMDB data (training and eval)"""
     # Only initialize `FederatedDataset` once
     global fds
     if fds is None:
